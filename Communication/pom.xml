@@ -5,6 +5,7 @@
     <artifactId>MarsMission</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+  <packaging>war</packaging>
   <artifactId>Communication</artifactId>
   <name>Communication</name>
   <description>Communication</description>
@@ -59,4 +60,5 @@
 			<artifactId>spring-integration-stream</artifactId>
 		</dependency>
 	</dependencies>  
+	
 </project>
