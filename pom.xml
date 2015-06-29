@@ -111,5 +111,6 @@
 	<modules>
 		<module>WebExample</module>
 		<module>Communication</module>
+		<module>WebMVCExample</module>
 	</modules>
 </project>
