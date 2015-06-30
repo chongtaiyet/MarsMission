@@ -5,10 +5,10 @@
     <artifactId>MarsMission</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <packaging>war</packaging>
-  <artifactId>Communication</artifactId>
-  <name>Communication</name>
-  <description>Communication</description>
+  <artifactId>Explorer</artifactId>
+  <name>Explorer</name>
+  <description>Explorer</description>
+  <packaging>jar</packaging>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -59,37 +59,5 @@
 			<groupId>org.springframework.integration</groupId>
 			<artifactId>spring-integration-stream</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.bigmoon.mission</groupId>
-			<artifactId>Explorer</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-		    <groupId>org.webjars</groupId>
-		    <artifactId>angularjs</artifactId>
-		    <version>1.4.1</version>
-		</dependency>		
-	</dependencies>
-  <build>
-    <plugins>
-      <plugin>
-      	 <groupId>org.apache.maven.plugins</groupId>
-         <artifactId>maven-jar-plugin</artifactId>
-         <version>2.6</version>
-        <configuration>
-          <archive>
-            <index>true</index>
-            <manifest>
-              <addClasspath>true</addClasspath>
-            </manifest>
-            <manifestEntries>
-              <mode>development</mode>
-              <url>Explorer</url>
-              <key>value</key>
-            </manifestEntries>
-          </archive>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>	
+	</dependencies>  
 </project>

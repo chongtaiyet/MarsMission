@@ -101,6 +101,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
@@ -112,5 +113,8 @@
 		<module>WebExample</module>
 		<module>Communication</module>
 		<module>WebMVCExample</module>
+		<module>Explorer</module>
+		<module>Logistic</module>
+		<module>Rover</module>
 	</modules>
 </project>

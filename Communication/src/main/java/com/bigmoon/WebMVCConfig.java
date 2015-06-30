@@ -12,5 +12,7 @@ public class WebMVCConfig extends WebMvcConfigurerAdapter {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		System.out.println("Bigmoon: WebMvcConfig::addResourceHandlers");
 	    registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
+	    registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
+	    registry.addResourceHandler("/ui/**").addResourceLocations("classpath:/META-INF/resources/ui/");
 	}	
 }
