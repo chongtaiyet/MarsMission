@@ -84,9 +84,9 @@
 				<version>${spring.integration.version}</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.webjars</groupId>
-			    <artifactId>angularjs</artifactId>
-			    <version>${angular.version}</version>
+				<groupId>org.webjars</groupId>
+				<artifactId>angularjs</artifactId>
+				<version>${angular.version}</version>
 			</dependency>
 			<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-integration</artifactId> 
 				<version>${spring.boot.starter.integration.version}</version> <type>pom</type> 
@@ -117,5 +117,13 @@
 	</build>
 	<modules>
 		<module>WebMVCExample</module>
+		<module>MarsLogistic</module>
+		<module>MarsCommunication</module>
+		<module>MarsEngineering</module>
+		<module>MarsSpaceCrew</module>
+		<module>Exploration</module>
+		<module>ExplorationUI</module>
+		<module>ExplorationBiz</module>
+		<module>Landing</module>
 	</modules>
 </project>

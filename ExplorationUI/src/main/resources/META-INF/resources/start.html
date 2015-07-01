@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mars Exploration</title>
+    <script type="text/javascript" src="lib/angular-1.4.1/angular.js"></script>
+    <script type="text/javascript" src="lib/angular-1.4.1/angular-resource.js"></script>
+    <script type="text/javascript" src="app/services.js"></script>
+    <script type="text/javascript" src="app/controllers.js"></script>
+    <script type="text/javascript" src="app/exploration.js"></script>
+</head>
+<body ng-app="exploration">
+<div ng-controller="EController">
+    <h1>{{title}}</h1>
+    <!--
+    <button ng-click="showItinerary()">Itinerary</button>
+    <ul>
+        <li ng-repeat="item in itinerary">
+            <span>{{item.name}}</span>
+            <p>{{item.description}}</p>
+        </li>
+    </ul>
+    -->
+    <button ng-click="showMessage()">Show Message</button>
+    {{message}}
+</div>
+</body>
+</html>
